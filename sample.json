@@ -1,0 +1,50 @@
+{
+  "logs": [
+    {
+      "date": "nov-23-2025",
+      "entries": [
+        {
+          "project": "BD-TICKET",
+          "subject": "Requirement analysis for Campaign Management",
+          "break_hours": null,
+          "duration_hours": 2,
+          "activity": "Development",
+          "is_scrum": false,
+          "work_package_id": null
+        },
+        {
+          "project": "BD-TICKET",
+          "subject": "API integration for notifications",
+          "break_hours": 0.5,
+          "duration_hours": 3,
+          "activity": "Development",
+          "is_scrum": false,
+          "work_package_id": null
+        }
+      ]
+    },
+    {
+      "date": "nov-24-2025",
+      "entries": [
+        {
+          "project": "IDCOL",
+          "subject": "Leave module bug fixes",
+          "break_hours": null,
+          "duration_hours": 4,
+          "activity": "Support",
+          "is_scrum": false,
+          "work_package_id": null
+        },
+        {
+          "project": "IDCOL",
+          "subject": "KPI dashboard improvements",
+          "break_hours": 0.25,
+          "duration_hours": 2.5,
+          "activity": "Development",
+          "is_scrum": false,
+          "work_package_id": null
+        }
+      ]
+    }
+  ]
+}
