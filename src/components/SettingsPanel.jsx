@@ -15,12 +15,6 @@ function SettingsPanel({
 
     return (
         <div className='bg-card rounded-lg border border-border p-6 shadow-sm'>
-            <h2 className='text-xl font-semibold mb-2 flex items-center gap-2'>
-                <ExternalLink className='w-5 h-5 text-primary' />
-                OpenProject Configuration
-            </h2>
-            <p className='text-sm text-muted-foreground mb-6'>Configure your OpenProject connection settings</p>
-
             <div className='space-y-6'>
                 <div>
                     <label className='block text-sm font-medium text-foreground mb-2'>Server URL</label>

@@ -26,16 +26,8 @@ function App() {
 
     return (
         <div className='min-h-screen bg-background text-foreground'>
-            {/* Header */}
-            <header className='border-b border-border bg-background px-6 py-4'>
-                <div className='flex items-center gap-3'>
-                    <Clock className='w-6 h-6 text-primary' />
-                    <h1 className='text-2xl font-bold'>OpenProject Time Logger</h1>
-                </div>
-            </header>
-
             {/* Stepper */}
-            <nav className='bg-background px-6 py-4 border-b border-border'>
+            <nav className='bg-background px-6 py-4 border-border'>
                 <div className='flex items-center justify-center gap-2 flex-wrap'>
                     {STEPS.map((step, index) => (
                         <React.Fragment key={step.id}>

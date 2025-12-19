@@ -338,9 +338,9 @@ function UploadPanel({ settings, onFileProcessed, showToast }) {
                 <label htmlFor='file-input' className='cursor-pointer'>
                     <Upload className={`w-16 h-16 mx-auto mb-4 ${dragOver ? 'text-primary' : 'text-muted-foreground'}`} />
                     <p className='text-lg text-foreground'>
-                        Drag and drop your JSON file here, or <span className='text-primary underline'>browse</span>
+                        Drag and drop your file here, or <span className='text-primary underline'>browse</span>
                     </p>
-                    <p className='text-sm text-muted-foreground mt-2'>Supports work log JSON format</p>
+                    <p className='text-sm text-muted-foreground mt-2'>Supports JSON Only</p>
                 </label>
             </div>
 
@@ -348,7 +348,7 @@ function UploadPanel({ settings, onFileProcessed, showToast }) {
             <div className='flex justify-center'>
                 <button onClick={downloadSampleJSON} className='flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground hover:bg-primary/90 rounded-lg transition-all font-medium text-sm shadow-sm border border-primary hover:shadow-md'>
                     <Download className='w-4 h-4' />
-                    Download Sample JSON
+                    Sample
                 </button>
             </div>
 
